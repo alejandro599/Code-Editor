@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./src/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Editor de Codigo</title>
+</head>
+<body>
+    <header>
+        <h1>Editor en Tiempo Real</h1>
+    </header>
+    <div class="contenedor">
+    <textarea onkeyup="visualizarAhora()" placeholder="Codifica Aquí..." class="area" id="area" ></textarea>
+    <iframe class="vista" id="vista"></iframe>
+</div>
+<footer>
+    <span>Gracias por Tomar el Curso</span>
+</footer>
+    
+    <script src="./js/main.js"></script>
+</body>
+</html>
